@@ -1,0 +1,104 @@
+    1  sudo apt install lvm2
+    2  exit
+    3  # -- mode: ruby --
+    4  # vi: set ft=ruby :
+    5  #https://developer.hashicorp.com/vagrant/docs/providers/virtualbox/configuration
+    6  Vagrant.configure("2") do |config|
+    7  end
+    8  vagrant halt
+    9  exit
+   10  sudo wipefs -a/dev/sdb1
+   11  sudo wipefs -a /dev/sdc1
+   12  Vagrant.configure("2") do |config|
+   13  exit
+   14  ls -l
+   15  pwd
+   16  sudo pvs
+   17  sudo vgs
+   18  sl
+   19  ls -l
+   20  cd ,
+   21  ls -la
+   22  cd .ssh
+   23  ls -l
+   24  cd ..
+   25  /etc/passwd
+   26  sudo /etc/passwd
+   27  cd /etc/passwd
+   28  ssh-keygen -t ed25519
+   29  ls -1 .ssh/
+   30  cat .ssh/id_ed25519.pub
+   31  pwd
+   32  ls -l
+   33  ls -la
+   34  /vagrant
+   35  cd /vagrant
+   36  mkdir ~/repogit
+   37  ls -l
+   38  cd repogit/
+   39  ls -l
+   40  gitclon git@github.com:JulianLebe/TP2_AySO_Lebedinsky_Julian_114.git
+   41  git clon git@github.com:JulianLebe/TP2_AySO_Lebedinsky_Julian_114.git
+   42  cd ..
+   43  sudo systemctl status sshd
+   44  lslsls   -l
+   45  ls -llsl
+   46  git clone ~
+   47  pwd
+   48  l
+   49  vagrnthalt
+   50  git clone git@github.com:JulianLebe/TP2_AySO_Lebedinsky_Julian_114.git
+   51  ls -l
+   52  cd TP2_AySO_Lebedinsky_Julian_114/
+   53  ls -l
+   54  ls -la
+   55  cd ..
+   56  vagrant halt
+   57  exit
+   58  fdisk -l
+   59  sudo fdisk -l
+   60  sudo fdisk /DEV/sdd
+   61  sudo fdisk /dev/sdd
+   62  free
+   63  free -h
+   64  sudo mkswap /dev/sdd1
+   65  sudo swapon /dev/sdd1
+   66  free -h
+   67  swapon -s
+   68  cat /proc/swaps
+   69  fdisk
+   70  fdisk -l
+   71  sudo fdisk -l
+   72  sudo fdisk /dev/sdc
+   73  sudo wipefs -a /dev/sdc1
+   74  sudo wipefs -a /dev/sdc2
+   75  sudo wipefs -a /dev/sdd1
+   76  sudo wipefs -a /dev/sdd2
+   77  sudo wipefs -a /dev/sdd3
+   78  sudo wipefs -a /dev/sdd5
+   79  sudo wipefs -a /dev/sdd6
+   80  sudo pvcreate /dev/sdd2 /dev/sdd3 /dev/sdd5 /dev/sdd6 /dev/sdc1 /dev/sdc2
+   81  pvs
+   82  sudo pvs
+   83  sudo vgcreate vg_datos /dev/sdc1 /dev/sdd2
+   84  sudo vgs
+   85  sudo pvs
+   86  sudo vgcreate vg_web /dev/sdc2
+   87  sudo pvs
+   88  sudo lvcreate -L 1G vg_web -n lv_web1
+   89  sudo lvcreate -L 512m vg_web -n lv_web2
+   90  sudo lvcreate -L 512m vg_web -n lv_web3
+   91  lvs
+   92  sudo lvs
+   93  sudo fdisk -l
+   94  sudo mkfs.ext4 /dev/mapper/vg_web-lv_web1
+   95  sudo mkfs.ext4 /dev/mapper/vg_web-lv_web2
+   96  sudo mkfs.ext4 /dev/mapper/vg_web-lv_web3
+   97  sudo fdisk -l
+   98  ls -l
+   99  cd TP2_AySO_Lebedinsky_Julian_114/
+  100  ls -la
+  101  sudo pvs > pvs.txt
+  102  sudo vgs > vgs.txt
+  103  sudo lvs > lvs.txt
+  104  history > historial_lvm.txt
