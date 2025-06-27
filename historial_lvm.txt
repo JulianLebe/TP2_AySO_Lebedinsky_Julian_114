@@ -102,3 +102,21 @@
   102  sudo vgs > vgs.txt
   103  sudo lvs > lvs.txt
   104  history > historial_lvm.txt
+  105  git add.
+  106  git status
+  107  git add
+  108  git add.
+  109  git add .
+  110  git commit -m "Archivo de texto pedido de Volúmenes e Historial"
+  111  git push
+  112  git status
+  113  ls -l
+  114  cd ..
+  115  git config --global user.mail "julianlebe@gmail.com"
+  116  git config --global user.name "Julian Lebe"
+  117  cd TP2_AySO_Lebedinsky_Julian_114/
+  118  ls -l
+  119  git add .
+  120  git commit -m "Archivos de texto info Volúmenes e Historial"
+  121  git push
+  122  history > historial_lvm.txt
